@@ -11,18 +11,6 @@
 <div class="">
 <?php require './includes/menu.php'; ?>
 </div>
-<h3>Innskráningarform:</h3>
-		<form action="database.php" method="post">
-		    <p>
-		        <label>Nafn:</label>
-		        <input type="text" name="Nafn">
-		    </p>
-		    <p>
-		        <label>Hópur:</label>
-		        <input type="text" name="hopur">
-		    </p>
-		    
-		    <input type="submit" value="Skrá">
-		</form>
+
 </body>
 </html>
