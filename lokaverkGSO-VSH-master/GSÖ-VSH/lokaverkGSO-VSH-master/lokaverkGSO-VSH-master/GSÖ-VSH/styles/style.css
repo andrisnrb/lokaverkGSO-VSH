@@ -1,0 +1,42 @@
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.menu
+{
+	list-style: none;
+	margin: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+
+
+	height: 50px;
+	list-style: none;
+	margin: 0; 	
+	background: #141414;
+}
+
+.menu a
+{
+		font-size: 20px;
+	list-style: none;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.menu a:hover
+{
+
+	color: #BDBDBA;
+}
+
+.menu a#here
+{
+	
+	color: #0085BD;
+
+}
